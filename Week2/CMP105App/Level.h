@@ -25,5 +25,12 @@ private:
 	Input* input;
 
 	// Add your object here
+	bool mouseFirstDown = true;
+	sf::Vector2i mouseFirstDownPos;
+
+	sf::Text mouseMsg;
+	sf::Font f;
+
+	sf::CircleShape circl;
 
 };
